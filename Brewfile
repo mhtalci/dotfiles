@@ -54,17 +54,10 @@ cask "vlc"
 cask "vmware-fusion"
 cask "warp"
 cask "wireshark"
-mas "AdBlock Pro", id: 1018301773
 mas "Bitwarden", id: 1352778147
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Pluralsight", id: 431748264
 mas "The Unarchiver", id: 425424353
 mas "Wappalyzer - Technology profiler", id: 1520333300
-mas "‎WhatsApp", id: 310633997
 vscode "hashicorp.terraform"
 vscode "mhutchie.git-graph"
 vscode "ms-python.debugpy"
