@@ -7,6 +7,7 @@ format = """$os$username$hostname$kubernetes$directory$git_branch$git_status"""
 # Drop ugly default prompt characters
 [character]
 success_symbol = ''
+# success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green
 error_symbol = ''
 
 # ---
