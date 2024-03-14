@@ -29,6 +29,7 @@ brew "tree"
 brew "xpipe"
 brew "yadm"
 brew "zsh-completions"
+brew "hashicorp/tap/packer"
 brew "hashicorp/tap/terraform"
 cask "alt-tab"
 cask "cyberduck"
@@ -58,6 +59,7 @@ mas "Bitwarden", id: 1352778147
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "The Unarchiver", id: 425424353
 mas "Wappalyzer - Technology profiler", id: 1520333300
+vscode "codeium.codeium"
 vscode "hashicorp.terraform"
 vscode "mhutchie.git-graph"
 vscode "ms-python.debugpy"
