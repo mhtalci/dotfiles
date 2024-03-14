@@ -50,7 +50,7 @@ format = 'at [$path]($style)[$read_only]($read_only_style) '
 # Shows current git branch
 [git_branch]
 symbol = ' '
-format = 'via [$symbol$branch]($style)'
+format = 'via [$symbol$branch]($style) '
 # truncation_length = 4
 truncation_symbol = '…/'
 style = 'bold green'
@@ -70,7 +70,6 @@ modified = '[󰛿 modified=${count}](yellow) '
 staged = '[󰐗 staged=${count}](green) '
 renamed = '[󱍸 renamed=${count}](yellow) '
 deleted = '[󰍶 deleted=${count}](red) '
-
 # Shows kubernetes context and namespace
 [kubernetes]
 format = 'via [󱃾 $context\($namespace\)](bold purple) '
