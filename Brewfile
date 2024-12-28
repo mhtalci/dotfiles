@@ -1,6 +1,8 @@
+tap "cloudflare/cloudflare"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "homebrew/services"
 tap "netbirdio/tap"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
@@ -14,6 +16,8 @@ brew "librsvg"
 brew "libyaml"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# Checks ansible playbooks for practices and behaviour
+brew "ansible-lint"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
 # Programmable completion for Bash 3.2
@@ -40,6 +44,8 @@ brew "git"
 brew "hashcat"
 # Improved top (interactive process viewer)
 brew "htop"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Portable Foreign Function Interface library
 brew "libffi"
 # Mac App Store command-line interface
@@ -72,11 +78,8 @@ cask "backblaze"
 cask "cyberduck"
 # App to build and share containerised applications and microservices
 cask "docker"
-# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
-# Typeface made for developers
 cask "font-jetbrains-mono"
-# Developer targeted fonts with a high number of glyphs
 cask "font-meslo-lg-nerd-font"
 # Development environment
 cask "hashicorp-vagrant"
@@ -88,7 +91,7 @@ cask "iterm2"
 cask "macfuse"
 # Controls and monitors all fans on Apple computers
 cask "macs-fan-control"
-# Warns about malware, adware and spyware
+# Scan and remove malware, spyware, and viruses
 cask "malwarebytes"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
@@ -120,18 +123,33 @@ cask "vlc"
 cask "vmware-fusion"
 # Rust-based terminal
 cask "warp"
+# Terminal emulator
+cask "wave"
 # Network protocol analyzer
 cask "wireshark"
 mas "Bitwarden", id: 1352778147
-mas "Microsoft Remote Desktop", id: 1295203466
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pluralsight", id: 431748264
 mas "The Unarchiver", id: 425424353
 mas "Wappalyzer - Technology profiler", id: 1520333300
+mas "Windows App", id: 1295203466
+mas "‎WhatsApp", id: 310633997
+vscode "amazonwebservices.aws-toolkit-vscode"
+vscode "bbenoist.vagrant"
 vscode "codeium.codeium"
+vscode "gitpod.gitpod-flex"
 vscode "hashicorp.terraform"
 vscode "mhutchie.git-graph"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.remote-explorer"
 vscode "redhat.ansible"
 vscode "redhat.vscode-yaml"
