@@ -1,19 +1,17 @@
 tap "cloudflare/cloudflare"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "homebrew/services"
-tap "netbirdio/tap"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
-# Library for command-line editing
-brew "readline"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Library to render SVG files using Cairo
 brew "librsvg"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # YAML Parser
 brew "libyaml"
+# Library for command-line editing
+brew "readline"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -32,6 +30,8 @@ brew "chruby"
 brew "ctop"
 # Load/unload environment variables based on $PWD
 brew "direnv"
+# Measure DNS performance by simulating network conditions
+brew "dnsperf"
 # Modern, maintained replacement for ls
 brew "eza"
 # Play, record, convert, and stream audio and video
@@ -46,6 +46,8 @@ brew "git"
 brew "hashcat"
 # Improved top (interactive process viewer)
 brew "htop"
+# Tool to measure maximum TCP and UDP bandwidth
+brew "iperf"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Portable Foreign Function Interface library
@@ -56,6 +58,8 @@ brew "mas"
 brew "ncdu"
 # Port scanning utility for large networks
 brew "nmap"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
 # Password generator
 brew "pwgen"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
@@ -74,12 +78,16 @@ brew "zsh-completions"
 brew "hashicorp/tap/packer"
 # Terraform
 brew "hashicorp/tap/terraform"
-# Enable Windows-like alt-tab
-cask "alt-tab"
-# Data backup and storage service
-cask "backblaze"
+# Chromium based browser
+cask "arc"
+# Desktop password and login vault
+cask "bitwarden"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Server and cloud storage browser
 cask "cyberduck"
+# Voice and text chat software
+cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
 cask "font-hack-nerd-font"
@@ -99,22 +107,24 @@ cask "macfuse"
 cask "macs-fan-control"
 # Scan and remove malware, spyware, and viruses
 cask "malwarebytes"
-# Smooths scrolling and set mouse scroll directions independently
-cask "mos"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Email client
+cask "microsoft-outlook"
 # Orchestrates virtual Ubuntu instances
 cask "multipass"
-# App to write, plan, collaborate, and get organised
-cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Collaboration platform for API development
 cask "postman"
-# Move and resize windows using keyboard shortcuts or snap areas
-cask "rectangle"
 # Centralises all remote connections on a single platform
 cask "remote-desktop-manager"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
+# SSH client
+cask "termius"
+# Unpacks archive files
+cask "the-unarchiver"
 # Open-source BitTorrent client
 cask "transmission"
 # Development environment
@@ -147,5 +157,6 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.remote-explorer"
+vscode "openai.chatgpt"
 vscode "redhat.ansible"
 vscode "redhat.vscode-yaml"
