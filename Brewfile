@@ -46,6 +46,8 @@ brew "git"
 brew "hashcat"
 # Improved top (interactive process viewer)
 brew "htop"
+# Migrate or backup IMAP mail accounts
+brew "imapsync"
 # Tool to measure maximum TCP and UDP bandwidth
 brew "iperf"
 # Lightweight and flexible command-line JSON processor
@@ -70,6 +72,8 @@ brew "starship"
 brew "telnet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Internet file retriever
+brew "wget"
 # Yet Another Dotfiles Manager
 brew "yadm"
 # Additional completion definitions for zsh
@@ -146,6 +150,7 @@ cask "wireshark"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
 vscode "codeium.codeium"
+vscode "docker.docker"
 vscode "gitpod.gitpod-flex"
 vscode "hashicorp.terraform"
 vscode "mhutchie.git-graph"
