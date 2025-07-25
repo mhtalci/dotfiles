@@ -60,6 +60,8 @@ brew "mas"
 brew "ncdu"
 # Port scanning utility for large networks
 brew "nmap"
+# Platform built on V8 to build network applications
+brew "node@20", link: true
 # Create, run, and share large language models (LLMs)
 brew "ollama"
 # Password generator
@@ -93,7 +95,7 @@ cask "cyberduck"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 cask "font-hack-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-meslo-lg-nerd-font"
@@ -146,18 +148,19 @@ cask "warp"
 # Terminal emulator
 cask "wave"
 # Network protocol analyzer
-cask "wireshark"
+cask "wireshark-app"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bbenoist.vagrant"
-vscode "codeium.codeium"
 vscode "docker.docker"
 vscode "gitpod.gitpod-flex"
 vscode "hashicorp.terraform"
 vscode "mhutchie.git-graph"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
