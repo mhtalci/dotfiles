@@ -145,8 +145,6 @@ cask "vlc"
 cask "vmware-fusion"
 # Rust-based terminal
 cask "warp"
-# Terminal emulator
-cask "wave"
 # Network protocol analyzer
 cask "wireshark-app"
 vscode "amazonwebservices.aws-toolkit-vscode"
